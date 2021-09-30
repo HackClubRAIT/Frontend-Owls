@@ -86,7 +86,12 @@ git push -u origin <your_branch_name>
 **14.** Click on `Create Pull Request`.
 
 
-**15** Voila! You have made a PR to the Frontend-Owls . Sit back patiently and relax while your PR is reviewed
+**15** Voila! You have made a PR to the Frontend-Owls . Sit back patiently and relax while your PR is reviewed.
+
+<h1 align=center> Project Maintainer </h1> 
+<p align="center"> <a href="https://github.com/siddhi-244"><img src="https://avatars.githubusercontent.com/u/69195262?s=96&v=4" width=90px height=90px /></a>
+<a href="https://github.com/girija0707"><img src="https://avatars.githubusercontent.com/u/63583646?v=4" width=90px height=90px /></a>
+
 
 
 
