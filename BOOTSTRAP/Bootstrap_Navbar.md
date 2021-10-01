@@ -114,6 +114,8 @@ This time instead of using vanilla css we will be using the popular front-end fr
 
 ## It will look like this :
 
+![navbar](https://user-images.githubusercontent.com/72851613/135644641-a59570a8-e99f-4bdc-9c86-2c1726a19014.png)
+
 <br><br>
 
 ## Some more tips:
