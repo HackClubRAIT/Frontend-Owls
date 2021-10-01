@@ -31,6 +31,33 @@ Label
 Input
 - `<input>`element is the most used element in the form.
 - We use it take input from the user in many forms depending on the `<type>` attribute.
-- Example: `<input type="text" id="fullName" name="fullName">`
+- It's always recommended to write `label` for the respective input.
+- Example: `<input type="text" id="fullName" name="fullName">`.
+- Following are the `types` of input which we can use:
+```<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="search">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+```
+- Below two `input type` functions more like button:
+  - `<input type="reset">` will be visible as reset button on HTML and it resets the contents of the form to default values
+  - `<input type="submit">` will be visible as submit button on HTML and submits the form.
+- If we don't mention any input then by default it would be considered as `text` and will be visible as textfield in html
 - To give the final submit button at the end of form we use same input element and set the type of input to submit as shown: `<input type="submit" value="Submit">`.
-- To read more about input, you can read it [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input).
+- To read more about input in detail, you can refer to [this](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input).
