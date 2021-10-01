@@ -6,8 +6,7 @@ Multimedia is a form of communication that includes different content forms such
 Multimedia elements are stored in media files in HTML.
 Multimedia files have formats and different extensions like: .wav, .mp3, .mp4, .mpg, .wmv, .ogg, .aac and .avi.
 
-
-#HTML Video
+# HTML Video
 The <video> element in HTML is used to show a video on a web page.
 #### Example usage:
 
@@ -18,7 +17,7 @@ The <video> element in HTML is used to show a video on a web page.
 </video>
 ```
 
-#HTML Audio
+# HTML Audio
 The <audio> element in HTML is used to play an audio file on a web page.
 #### Example usage:
 
@@ -30,7 +29,7 @@ Your browser does not support the audio element.
 </audio>
 ```
 
-#HTML Youtube
+# HTML Youtube
 The best way to play any videos is through Youtube.
 
 #### Example usage:
