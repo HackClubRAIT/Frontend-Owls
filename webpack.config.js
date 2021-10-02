@@ -16,12 +16,16 @@ module.exports = (env) => {
             {
                test: /\.s[ac]ss$/i,
                use: [
-                  // Load CSS extract plugin
-                  MiniCssExtractPlugin.loader,
-                  // Translates CSS into CommonJS
+                  {
+                     loader: MiniCssExtractPlugin.loader,
+                     options: {
+                        esModule: false,
+                     },
+                  },
                   "css-loader",
-                  // Compiles Sass to CSS
-                  "sass-loader",
+                  {
+                     loader: "postcss-sass-loader",
+                  },
                ],
             },
             {
@@ -37,7 +41,17 @@ module.exports = (env) => {
       optimization: {
          minimize: true,
          minimizer: [
-            new CssMinimizerPlugin(),
+            // Minify CSS
+            new CssMinimizerPlugin({
+               minimizerOptions: {
+                  preset: [
+                     "default",
+                     {
+                        discardComments: { removeAll: true },
+                     },
+                  ],
+               },
+            }),
             new TerserPlugin({
                terserOptions: {
                   format: {
@@ -60,7 +74,10 @@ module.exports = (env) => {
          ],
       },
       plugins: [
-         new MiniCssExtractPlugin({ filename: "styles/[name].min.css" }),
+         new MiniCssExtractPlugin({
+            filename: "styles/[name].min.css",
+            experimentalUseImportModule: false,
+         }),
       ],
    };
 };
