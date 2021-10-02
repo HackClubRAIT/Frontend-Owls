@@ -1,0 +1,19 @@
+{
+   "name": "Frontend-Owls",
+   "version": "1.0.0",
+   "description": "An open source project to bring all front end documentation under one repository.",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HackClubRAIT/Frontend-Owls.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/HackClubRAIT/Frontend-Owls/issues"
+   },
+   "homepage": "https://github.com/HackClubRAIT/Frontend-Owls#readme"
+}
