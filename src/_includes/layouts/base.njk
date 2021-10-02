@@ -1,0 +1,22 @@
+---
+site_title: LBlangenois Eleventy starter
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>{{ site_title }}</title>
+
+      {# Load style #}
+      <link rel="stylesheet" href="/static/assets/styles/main.min.css" />
+   </head>
+   <body>
+      <h1>{{ title }}</h1>
+
+      {{ content | safe }}
+
+      <script src="/static/assets/scripts/index.min.js"></script>
+   </body>
+</html>

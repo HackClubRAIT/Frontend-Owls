@@ -1,19 +1,38 @@
 {
-   "name": "Frontend-Owls",
+   "name": "mediakod",
    "version": "1.0.0",
-   "description": "An open source project to bring all front end documentation under one repository.",
    "main": "index.js",
+   "license": "MIT",
    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "clean": "rimraf _site",
+      "dev:webpack": "webpack --mode development --watch",
+      "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+      "dev": "npm-run-all clean --parallel dev:*",
+      "build:webpack": "webpack --mode production",
+      "build:eleventy": "ELEVENTY_ENV=production eleventy",
+      "build": "run-s clean build:*"
    },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/HackClubRAIT/Frontend-Owls.git"
+   "devDependencies": {
+      "@11ty/eleventy": "^0.12.1",
+      "@babel/core": "^7.14.8",
+      "@babel/plugin-proposal-class-properties": "^7.14.5",
+      "@babel/plugin-proposal-object-rest-spread": "^7.14.7",
+      "@babel/preset-env": "^7.14.9",
+      "@babel/preset-typescript": "^7.14.5",
+      "babel-loader": "^8.2.2",
+      "css-minimizer-webpack-plugin": "^3.0.2",
+      "mini-css-extract-plugin": "^2.1.0",
+      "npm-run-all": "^4.1.5",
+      "rimraf": "^3.0.2",
+      "sass": "^1.37.2",
+      "sass-loader": "^12.1.0",
+      "style-loader": "^3.2.1",
+      "terser-webpack-plugin": "^5.1.4",
+      "typescript": "^4.3.5",
+      "webpack": "^5.48.0",
+      "webpack-cli": "^4.7.2"
    },
-   "author": "",
-   "license": "ISC",
-   "bugs": {
-      "url": "https://github.com/HackClubRAIT/Frontend-Owls/issues"
-   },
-   "homepage": "https://github.com/HackClubRAIT/Frontend-Owls#readme"
+   "dependencies": {
+      "css-loader": "^6.2.0"
+   }
 }
