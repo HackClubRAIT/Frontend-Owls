@@ -13,7 +13,9 @@ site_title: LBlangenois Eleventy starter
       <link rel="stylesheet" href="/static/assets/styles/main.min.css" />
    </head>
    <body>
-      {{ content | safe }}
+      <main id="main" class="prose">
+         {{ content | safe }}
+      </main>
 
       <script src="/static/assets/scripts/index.min.js"></script>
    </body>

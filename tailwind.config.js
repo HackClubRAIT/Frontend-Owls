@@ -71,4 +71,5 @@ module.exports = {
          backgroundOpacity: ["group-focus", "group-hover"],
       },
    },
+   plugins: [require("@tailwindcss/typography")],
 };
