@@ -41,6 +41,7 @@ div {
 
 <img  src="https://i.ibb.co/ZTcm1GY/output-css-box-model.jpg"  width="350"  height="300"  align="center"/>
 
-- To read more about other example, you can refer to
-  https://www.w3schools.com/css/css_boxmodel.asp.
-  https://css-tricks.com/the-css-box-model/
+To read more about other example, you can refer to
+
+- https://www.w3schools.com/css/css_boxmodel.asp.
+- https://css-tricks.com/the-css-box-model/
