@@ -29,6 +29,7 @@
       "file-loader": "^6.2.0",
       "fork-ts-checker-webpack-plugin": "^6.3.2",
       "fslightbox": "^3.3.0-2",
+      "highlight.js": "9.15.8",
       "html-minifier": "^4.0.0",
       "jimp": "^0.16.1",
       "mini-css-extract-plugin": "^2.1.0",
