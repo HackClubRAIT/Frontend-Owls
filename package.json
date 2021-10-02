@@ -5,7 +5,7 @@
    "license": "MIT",
    "scripts": {
       "clean": "rimraf _site && rimraf ./static",
-      "dev:webpack": "webpack --mode development --watch",
+      "dev:webpack": "TAILWIND_MODE=watch webpack --mode development --watch",
       "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve",
       "dev": "npm-run-all clean --parallel dev:*",
       "build:webpack": "webpack --mode production",

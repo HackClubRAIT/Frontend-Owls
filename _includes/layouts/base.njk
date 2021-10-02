@@ -2,6 +2,10 @@
 site_title: LBlangenois Eleventy starter
 ---
 
+{% from "components/atoms/brand/brand.njk" import brand %}
+{% from "components/atoms/icons/github.njk" import iconGithub %}
+{% from "components/atoms/icons/pencil.njk" import iconPencil %}
+
 <!DOCTYPE html>
 <html lang="fr">
    <head>
@@ -12,10 +16,72 @@ site_title: LBlangenois Eleventy starter
       {# Load style #}
       <link rel="stylesheet" href="/static/assets/styles/main.min.css" />
    </head>
+
    <body>
-      <main id="main" class="prose">
-         {{ content | safe }}
-      </main>
+      <div class="h-screen flex overflow-hidden bg-gray-100">
+         <!-- Static sidebar for desktop -->
+         <div class="hidden md:flex md:flex-shrink-0">
+            <div class="flex flex-col w-64">
+               <!-- Sidebar component, swap this element with another sidebar if you like -->
+               <div class="flex-1 flex flex-col min-h-0">
+                  <div class="flex items-center h-16 flex-shrink-0 px-4 bg-gray-900">
+                     {{ brand() }}
+                  </div>
+                  <div class="flex-1 flex flex-col overflow-y-auto">
+                     <nav class="flex-1 px-2 py-4 bg-gray-800 space-y-1">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <a href="#" class="bg-gray-900 text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                           Dashboard
+                        </a>
+
+                        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white group flex items-center px-2 py-2 text-sm font-medium rounded-md">
+                           Team
+                        </a>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="flex flex-col w-0 flex-1 overflow-hidden">
+            <div class="relative z-10 flex-shrink-0 flex h-16 bg-white shadow">
+               <button type="button" class="px-4 border-r border-gray-200 text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 md:hidden">
+                  <span class="sr-only">Open sidebar</span>
+                  <!-- Heroicon name: outline/menu-alt-2 -->
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                  </svg>
+               </button>
+               <div class="flex-1 px-4 flex justify-end">
+
+                  <div class="ml-4 flex justify-self-end items-center md:ml-6">
+                     <a href="#" class="flex items-center space-x-1 p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus-visible:outline-black">
+                        {{ iconGithub("h-6 w-6") }}
+                        <span>Contribute</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <main id="main" class="flex-1 relative overflow-y-auto focus:outline-none">
+               <div class="py-6 md:pt-12">
+                  <div class="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 prose">
+                     {{ content | safe}}
+                  </div>
+
+                  {% if page.filePathStem %}
+                     <div class="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 prose mt-12">
+                        <div class"border-t border-gray-200">
+                           <a href="https://github.com/HackClubRAIT/Frontend-Owls/blob/main{{ page.filePathStem }}.md" class="flex items-center space-x-1 opacity-50 hover:opacity-100 transition ease-in duration-150" target="_blank">
+                              {{ iconPencil("h-4 w-auto") }}
+                              <span>Edit this page</span></a>
+                        </div>
+                     </div>
+                  {% endif %}
+               </div>
+            </main>
+         </div>
+      </div>
 
       <script src="/static/assets/scripts/index.min.js"></script>
    </body>
