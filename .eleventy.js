@@ -11,7 +11,24 @@ module.exports = function (eleventyConfig) {
       ],
    });
 
+   eleventyConfig.addCollection("pages", (collection) => {
+      return collection.getAllSorted().map((item) => {
+         console.log("Output Path :", item.outputPath);
+
+         item.outputPath = item.outputPath.replace(
+            "README/index.html",
+            "index.html"
+         );
+         item.outputPath = item.outputPath.toLowerCase();
+      });
+   });
+
    return {
-      dir: { input: "src", output: "_site" },
+      dir: {
+         input: "./",
+         includes: "_includes",
+         layouts: "_includes/layouts",
+         output: "_site",
+      },
    };
 };

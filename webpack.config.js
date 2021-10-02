@@ -5,7 +5,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 
 module.exports = (env) => {
    return {
-      entry: "./src/assets/js/index.ts",
+      entry: "./assets/js/index.ts",
       output: {
          path: path.resolve(__dirname, "static/assets"),
          filename: "scripts/index.min.js",
