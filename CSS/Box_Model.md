@@ -2,40 +2,45 @@
 
 ## What is CSS box model?
 
-The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+CSS Box Model is a concept in which each element on a web page acts as a box. Starting from paragraphs, headers, forms, images, logos to videos, web browsers actually display them as 'boxes'.
 
-<img src="https://i1.wp.com/mangcoding.com/wp-content/uploads/2017/03/CSS-Box-Model.png?fit=630%2C411&ssl=1" width="450" height="300" align="center"/>
+Like a 'box', each of these HTML elements consists of 4 layers, namely: content, padding, border and margin. These four 'layers' make up the CSS Box Model.
 
-Explanation of the different parts:
+<img  src="https://www.duniailkom.com/wp-content/uploads/2014/04/CSS-Box-Model.png"  width="450"  height="300"  align="center"/>
 
-- **Content** - The content of the box, where text and images appear
-- **Padding** - Clears an area around the content. The padding is transparent
-- **Border** - A border that goes around the padding and content
-- **Margin** - Clears an area outside the border. The margin is transparent
+### Content
 
-The box model allows us to add a border around elements, and to define space between elements.
+Content is the content of the elements we use. For example, with paragraph elements we write text, then the text is the content. With the image <img> element, we add an image, then the image is the content
+
+### Padding
+
+Is the space (space) around the content. Padding is transparent. And we can only determine the width
+
+### Border
+
+Borders are “boundaries” that surround the content and padding areas. Previously I have written about background and border explanations
+
+### Margin
+
+Margins can be used to set the area (space) outside the element
 
 #### Example usage:
 
-This div element will have a total width of 350px:
-
 ```
+
 div {
-	width: 320px;
-	padding: 10px;
-	border: 5px solid gray;
-	margin: 0;
+	width: 300px;
+	height: 50px;
+	padding: 15px;
+	border: 3px solid salmon;
+	margin: 20px;
+	background-color: aqua;
 }
-```
-
-Here is the calculation:
 
 ```
-320px (width)
-+ 20px (left + right padding)
-+ 10px (left + right border)
-+ 0px (left + right margin)
-**= 350px**
-```
 
-- To read more about other example, you can refer to [this](https://www.w3schools.com/css/css_boxmodel.asp).
+<img  src="https://i.ibb.co/ZTcm1GY/output-css-box-model.jpg"  width="350"  height="300"  align="center"/>
+
+- To read more about other example, you can refer to
+  https://www.w3schools.com/css/css_boxmodel.asp.
+  https://css-tricks.com/the-css-box-model/
