@@ -20,7 +20,7 @@ This time instead of using vanilla css we will be using the popular front-end fr
 
 <br>
 
-- Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl|-xxl} for responsive collapsing and color scheme classes.
+- Navbars require a wrapping `.navbar` with `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` for responsive collapsing and color scheme classes.
 
 - Navbars and their contents are fluid by default. Change the container to limit their horizontal width in different ways.
 - Use our spacing and flex utility classes for controlling spacing and alignment within navbars.
@@ -124,7 +124,8 @@ This time instead of using vanilla css we will be using the popular front-end fr
 
 ### Brand
 
-The .navbar-brand can be applied to most elements, but an anchor works best, as some elements might require utility classes or custom styles.
+To mark the Brand name for a navbar we use : `.navbar-brand`.
+Make sure to use it with anchor tags for proper functionality.
 
 <br>
 
@@ -136,31 +137,34 @@ You can replace the text within the .navbar-brand with an `<img>`.
 
 ### Nav
 
-Navbar navigation links build on our .nav options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.
+Navbar navigation links build on our `.nav` options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.
 
-Add the `.active` class on `.nav-link` to indicate the current page.
+To mark the current Page active we use `.active` on the `.nav-link`.
 
-Please note that you should also add the `aria-current` attribute on the active `.nav-link`.
+Please note that you should also add the `aria-current` attribute on the active `.nav-link` else it might not function as expected.
 
 <br> <br>
 
 ## Scrolling
 
-Add `.navbar-nav-scroll` to a `.navbar-nav` (or other navbar sub-component) to enable vertical scrolling within the toggleable contents of a collapsed navbar.
-By default, scrolling kicks in at `75vh` (or 75% of the viewport height), but you can override that with the local CSS custom property `--bs-navbar-height` or custom styles. At larger viewports when the navbar is expanded, content will appear as it does in a default navbar.
+To enable vertical scrolling we need to use the : `.navbar-nav-scroll` to a `.navbar-nav` (or other navbar sub-component) to enable vertical scrolling within the toggleable contents of a collapsed navbar.
 
-Please note that this behavior comes with a potential drawback of `overflow` when setting `overflow-y: auto` (required to scroll the content here), `overflow-x` is the equivalent of auto, which will crop some horizontal content.
+By default, scrolling kicks in at `75vh` (or 75% of the viewport height), to override that property we use : `--bs-navbar-height` or custom styles.
+At larger viewports when the navbar is expanded, content will appear as it does in a default navbar.
+
+Please note that this behavior comes with a potential drawback of `overflow` when setting `overflow-y: auto` (required to scroll the content here), `overflow-x` is the equivalent of auto.
 
 <br><br>
 
 ## Responsive behaviors
 
-Navbars can use `.navbar-toggler` , `.navbar-collapse`, and `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` classes to determine when their content collapses behind a button. In combination with other utilities, you can easily choose when to show or hide particular elements.
+For responsiveness Navbars can be used with `.navbar-toggler` , `.navbar-collapse`, and `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` classes to determine how their content collapses behind buttons. In combination with other utilities, you can easily choose when to show or hide particular elements.
 
-For navbars that never collapse, add the `.navbar-expand` class on the navbar. For navbars that always collapse, don’t add any `.navbar-expand` class.
+To make a navbar Un-Collapsable use the : `.navbar-expand` class.
+To make such that the navbar will collapse we donot need to use any classes on them.
 
 <br><br>
 
 ## Togglers
 
-Navbar togglers are left-aligned by default, but should they follow a sibling element like a `.navbar-brand` , they’ll automatically be aligned to the far right. Reversing your markup will reverse the placement of the toggler.
+Navbar togglers are left-aligned by default, but should they follow a sibling element like a `.navbar-brand` , they’ll automatically be aligned to the far right.
