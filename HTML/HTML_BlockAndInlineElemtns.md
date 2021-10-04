@@ -8,10 +8,12 @@ They define the default display property of the particular HTML element.
 # Inline Elements
 Inline Elements are those elements that occupy the space and width as what is required to them. An Inline Ekement does not start with a next line. 
 
-Example of Inline Elements present in HTML are:
-<a>, <span>, <input>, <audio>, <button>, <textarea>, <img>, <select> 
+Example of Inline Elements present in HTML are:<br>
+`<a>`, `<span>`, `<input>`, `<audio>`, `<button>`, `<textarea>`, `<img>`, `<select>` 
 
 <h3>HTML Code to demonstrate Inline Elements</h3>
+
+```html
 <html>
     <head>
         <h1>Inline Elements</h1>
@@ -23,16 +25,18 @@ Example of Inline Elements present in HTML are:
         <button>Submit</button>
     </body>
 </html> 
-
+```
+    
 <h3>Output</h3>
 
 
 # Block Elements
 Block Elements are those elements that occupies as much width as its parent element and as much height as needed by its content. A Block Element will start with a new line. 
 
-Example of Block Elements present in HTML are:
-<div>, <header>, <footer>, <form>, <p>, <ol>, <ul>, <li>, <table>
+Example of Block Elements present in HTML are:<br>
+`<div>`, `<header>`, `<footer>`, `<form>`, `<p>`, `<ol>`, `<ul>`, `<li>`, `<table>`
 
+```html
 <h3>HTML Code to demonstrate Block Elements</h3>
 <html>
     <head>
@@ -47,6 +51,7 @@ Example of Block Elements present in HTML are:
         <p>This is to demonstrate Inline Elements</p>
     </body>
 </html> 
+```
 
 <h3>Output</h3>
 
