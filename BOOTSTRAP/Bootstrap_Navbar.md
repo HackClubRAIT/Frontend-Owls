@@ -1,170 +1,200 @@
 # Bootstrap Navbar
 
+Here we will be learning about the bootstrap navbar as well as customizing with various classes extracted from the Bootstrap 5.0
+<br><br>
+
+## So, what is a " Navbar " ?
+
+In simple words, a navigation bar is a user interface element within a webpage that contains links to other sections of the website. In most cases, the navigation bar is part of the main website template, which means it is displayed on most, if not all, pages within the website. <br>This means that no matter what page you are viewing, you can use the navigation bar to visit other sections of the website.
+
 <br>
 
-## So what is a Navbar ?
+## Types of Navbar :
 
-A navigation bar (or navigation system) is a section of a graphical user interface intended to aid visitors in accessing information. Navigation bars are implemented in file browsers, web browsers and as a design element of some web sites.
-
-<br>
-
-## How will we be making one ?
-
-This time instead of using vanilla css we will be using the popular front-end framework for CSS known as Bootstrap.
+- Horizontal (Displayed at the top of each page)
+- Vertical (Sidebar appears from any of the side)
 
 <br><br>
 
-## How it works :
+## Make a Navbar :
 
-### Here’s what you need to know before getting started with the navbar:
+Okay now we know what is a navbar and how it looks. So now let us try to build one and see how it functions and then customize it further. <br>
+Previously we would need to make a Navbar from scratch and as a result it was time consuming so we generally use something known as [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). <br><br>
 
-<br>
+The steps to make the `Navbar` is easy enough, just follow through :
 
-- Navbars require a wrapping `.navbar` with `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` for responsive collapsing and color scheme classes.
-
-- Navbars and their contents are fluid by default. Change the container to limit their horizontal width in different ways.
-- Use our spacing and flex utility classes for controlling spacing and alignment within navbars.
-- Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin.
-- Ensure accessibility by using a `<nav>` element or, if using a more generic element such as a `<div>`, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
-- Indicate the current item by using aria-current="page" for the current page or aria-current="true" for the current item in a set.
-
-<br><br>
-
-## Supported content
-
-### Navbars come with built-in support for a handful of sub-components. Choose from the following as needed:
-
-<br>
-
-- `.navbar-brand` for your company, product, or project name.
-
-- `.navbar-` for a full-height and lightweight navigation (including support for dropdowns).
-
-- `.navbar-toggler` for use with our collapse plugin and other navigation toggling behaviors.
-
-- Flex and spacing utilities for any form controls and actions.
-
-- `.navbar-text` for adding vertically centered strings of text.
-
-- `.collapse.navbar-collapse` for grouping and hiding navbar contents by a parent breakpoint.
-
-- Add an optional `.navbar-scroll` to set a max-height and scroll expanded navbar content.
-
-<br><br>
-
-## Code :
-
-### Simply copy the code and paste it in the `body` of your html file
-
-```
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-  <div class="container-fluid">
-
-    <a class="navbar-brand" href="#">Navbar</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-
-      </ul>
-
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-
+- Go to the `head` of the `index.html` and paste the [Bootstrap CDN](https://getbootstrap.com/docs/5.0/getting-started/introduction/).
+- Then go to your code and make a `Section` in the code (at the top) to place the Navbar's code.<br>
+- Copy this code and paste it in the section : <br>
+- ```<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+  ```
 
-```
+- With this done you are Good to go !! That's all.
 
 <br><br>
 
-## It will look like this :
+### By default it will be looking like this :
+
+<br>
 
 ![navbar](https://user-images.githubusercontent.com/72851613/135644641-a59570a8-e99f-4bdc-9c86-2c1726a19014.png)
 
-<br><br>
-
-## Some more tips:
+<br>
+Don't worry we will be talking about all the properties and customizing it next.
 
 <br>
+
+---
+
+<br>
+
+## Properties of the Navbar :
+
+Now that we have sucessfully made a `navbar` it is time that we look into the navbar and understand all of it's properties and components which it uses to provide the default look and feel.
+<br><br>
 
 ### Brand
 
-To mark the Brand name for a navbar we use : `.navbar-brand`.
-Make sure to use it with anchor tags for proper functionality.
-
-<br>
-
-### Image
-
-You can replace the text within the .navbar-brand with an `<img>`.
+The `.navbar-brand` can be applied to most elements, but an anchor works best, as some elements might require utility classes or custom styles. It is used to represent any type of Brand Name that you might want to display in your site. You can also replace the `.navbar-brand` with an Image.
 
 <br>
 
 ### Nav
 
-Navbar navigation links build on our `.nav` options with their own modifier class and require the use of toggler classes for proper responsive styling. Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.
+Navbar navigation links build on our `.nav` options with their own modifier class and require the use of toggler classes for proper responsive styling. Remember that Navigation in navbars will also grow to occupy as much horizontal space as possible to keep your navbar contents securely aligned.
 
-To mark the current Page active we use `.active` on the `.nav-link`.
+To add the current page use `.active` class on the `.nav-link`.
+Please note that you should also add the `aria-current` attribute on the active `.nav-link`.
 
-Please note that you should also add the `aria-current` attribute on the active `.nav-link` else it might not function as expected.
+<br>
 
-<br> <br>
+### Forms
+
+You can place a `form` inside your Navbar. It can be like a search bar too. Remember that immediate child elements of `.navbar` use flex layout and will default to `justify-content: space-between`.
+
+<br>
+
+### Buttons
+
+If a search bar is added in the `navbar` we can generally add a button inside the navbar so that upon clicking we can search for the desired content.
+
+<br>
+
+### Dropdown
+
+We can also use `dropdown` in the `.nav-item` which can be toggeled and inside the dropdown many we can place details such as login, logout, profile and so on.
+
+<br>
+
+---
+
+<br>
+
+## Customization :
+
+Now that we have learnt about the `navbar` in details it is time that we look at the different properties that can be used during the customization
+<br><br>
+
+## Color schemes
+
+Theming the navbar has never been easier thanks to the combination of theming classes and background-color utilities. We can choose either a dark or a light navbar. <br>
+
+- To use a dark `navbar` we will use : `.navbar-dark` for dark background colors.
+- And if you prefer a light `navbar` use : `.navbar-light` for use with light background colors.
+
+This can be further customized with the help of `.bg-\*` utilities. Examples : `bg-primary`.
+
+<br>
+
+## Containers
+
+Although it’s not required, you can still wrap a `navbar` in a `.container` to center it on a page–though note that an inner container is still required. Alternatively you can add a container inside the `.navbar` to only center the contents of a fixed or static top navbar.
+
+<br>
+
+## Placement
+
+Placement of a `navbar` is one of the most important properties that can be used during customization. <br>
+
+We can use different position utilites to customize the position :
+
+- `<div class="position-static">...</div>`
+- `<div class="position-relative">...</div>`
+- `<div class="position-absolute">...</div>`
+- `<div class="position-fixed">...</div>`
+- `<div class="position-sticky">...</div>`
+
+`Static` and `fixed` is used to keep the navbar where it is through out. `Absolute` and `relative` are used to change the position as needed via CSS.
+
+Also note that `position-sticky`, keep the navbar in one single place wwhich isn’t fully supported in every browser.
+
+<br>
 
 ## Scrolling
 
-To enable vertical scrolling we need to use the : `.navbar-nav-scroll` to a `.navbar-nav` (or other navbar sub-component) to enable vertical scrolling within the toggleable contents of a collapsed navbar.
+Add `.navbar-nav-scroll` to a `.navbar-nav` (or other navbar sub-component) to enable vertical scrolling within the toggleable contents of a collapsed navbar. By default, scrolling kicks in at 75vh (or 75% of the viewport height), but you can override that with the local CSS custom property `--bs-navbar-height` or custom styles.
 
-By default, scrolling kicks in at `75vh` (or 75% of the viewport height), to override that property we use : `--bs-navbar-height` or custom styles.
-At larger viewports when the navbar is expanded, content will appear as it does in a default navbar.
+Please note that this behavior comes with a potential drawback of overflow—when setting `overflow-y: auto` (required to scroll the content here), `overflow-x` is the equivalent of auto, which will crop some horizontal content.
 
-Please note that this behavior comes with a potential drawback of `overflow` when setting `overflow-y: auto` (required to scroll the content here), `overflow-x` is the equivalent of auto.
-
-<br><br>
+<br>
 
 ## Responsive behaviors
 
-For responsiveness Navbars can be used with `.navbar-toggler` , `.navbar-collapse`, and `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` classes to determine how their content collapses behind buttons. In combination with other utilities, you can easily choose when to show or hide particular elements.
+Navbars can use `.navbar-toggler` , `.navbar-collapse`, and `.navbar-expand{-sm|-md|-lg|-xl|-xxl}` classes to determine when their content collapses behind a button.
 
-To make a navbar Un-Collapsable use the : `.navbar-expand` class.
-To make such that the navbar will collapse we donot need to use any classes on them.
+For navbars that never collapse, we can add the `.navbar-expand` class on the navbar. For navbars that always collapse, don’t add any `.navbar-expand` class.
 
-<br><br>
+<br>
 
-## Togglers
+---
 
-Navbar togglers are left-aligned by default, but should they follow a sibling element like a `.navbar-brand` , they’ll automatically be aligned to the far right.
+<br>
+
+## Conclusion
+
+We have sucessfully created a navbar, took a look at all of it's properties and played around with the customization.
+
+<br>
+
+Make sure to give [Frontend-Owls](https://github.com/HackClubRAIT/Frontend-Owls) a ⭐and keep contributing to other projects.
+
+Author : [Tamal](https://github.com/IAmTamal)
+
+<br>
+
+---
