@@ -3,10 +3,11 @@
 HTML Elements are defined into two types:
 1. Inline Elements
 2. Block Elements
+
 They define the default display property of the particular HTML element.
 
 # Inline Elements
-Inline Elements are those elements that occupy the space and width as what is required to them. An Inline Ekement does not start with a next line. 
+Inline Elements are those elements that occupy the space and width as what is required to them. An Inline Ekement does not start with a new line. 
 
 Example of Inline Elements present in HTML are:<br>
 `<a>`, `<span>`, `<input>`, `<audio>`, `<button>`, `<textarea>`, `<img>`, `<select>` 
@@ -28,7 +29,7 @@ Example of Inline Elements present in HTML are:<br>
 ```
     
 <h3>Output</h3>
-<img src="./images/Inline_Elements.png" width="40%" />
+<img src="./images/Inline_Elements.png" width="80%" />
 
 
 # Block Elements
@@ -37,8 +38,9 @@ Block Elements are those elements that occupies as much width as its parent elem
 Example of Block Elements present in HTML are:<br>
 `<div>`, `<header>`, `<footer>`, `<form>`, `<p>`, `<ol>`, `<ul>`, `<li>`, `<table>`
 
-```html
 <h3>HTML Code to demonstrate Block Elements</h3>
+
+```html
 <html>
     <head>
         <h1>Block Elements</h1>
@@ -49,11 +51,11 @@ Example of Block Elements present in HTML are:<br>
             <li>Point Number 1</li>
             <li>Point Number 2</li>
         </ul>
-        <p>This is to demonstrate Inline Elements</p>
+        <p>This is to demonstrate Block Elements</p>
     </body>
 </html> 
 ```
 
 <h3>Output</h3>
-<img src="./images/Block_Elements.png" width="40%" />
+<img src="./images/Block_Elements.png" width="45%" />
 
