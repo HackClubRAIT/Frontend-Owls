@@ -28,6 +28,7 @@ Example of Inline Elements present in HTML are:<br>
 ```
     
 <h3>Output</h3>
+<img src="./images/Inline_Elements.png" width="40%" />
 
 
 # Block Elements
@@ -54,5 +55,5 @@ Example of Block Elements present in HTML are:<br>
 ```
 
 <h3>Output</h3>
-
+<img src="./images/Block_Elements.png" width="40%" />
 
