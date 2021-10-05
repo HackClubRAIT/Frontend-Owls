@@ -2,4 +2,18 @@
 
 ul ul {
    padding-left: 1rem !important;
+   border-left: 1px solid rgba(#fff, 0.3);
+
+   > li {
+      @apply relative;
+
+      a {
+         @apply relative block;
+         &::before {
+            content: "";
+            top: 50%;
+            @apply absolute w-3 h-px bg-white opacity-30 -left-4;
+         }
+      }
+   }
 }
