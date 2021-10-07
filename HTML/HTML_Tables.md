@@ -1,4 +1,4 @@
-## **What is Html_tables**
+## **What is a HTML Table**
 *A table in HTML comprises of rows and columns with their intersection known as cells*
 Creating table example
 ```
