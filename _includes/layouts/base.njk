@@ -1,5 +1,5 @@
 ---
-site_title: LBlangenois Eleventy starter
+site_title: Frontend Owls
 ---
 
 {% from "components/atoms/brand/brand.njk" import brand %}
@@ -13,7 +13,9 @@ site_title: LBlangenois Eleventy starter
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>{{ site_title }}</title>
+      <title>
+         {% if page.url != "/README/" %}{{ page.filePathStem | rewriteTitle }} | {% endif %}{{ site_title }}
+      </title>
 
       {# Load style #}
       <link rel="stylesheet" href="/static/assets/styles/main.min.css" />

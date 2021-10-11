@@ -38,6 +38,16 @@ module.exports = function (eleventyConfig) {
       return slug.toLowerCase();
    });
 
+   eleventyConfig.addNunjucksFilter("rewriteTitle", (slug) => {
+      slug = slug
+         .replaceAll("/", " ")
+         .replace("README", "")
+         .replaceAll("_", " ")
+         .trim();
+
+      return slug;
+   });
+
    eleventyConfig.addNunjucksFilter("rewriteBasename", (slug) => {
       slug = slug.replace("/README.md", "");
 
