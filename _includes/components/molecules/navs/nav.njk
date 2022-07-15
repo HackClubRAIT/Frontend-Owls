@@ -1,0 +1,18 @@
+{% macro nav(entry, page) -%}
+	{% set currentPageUrl = page.url | rewriteSlug %}
+	{% set entryUrl = entry.url | rewriteSlug %}
+
+	{% if entry.title %}
+		<li>
+			<a href="{{ entry.url | url }}" {% if entryUrl == currentPageUrl %} class="underline"{% endif %}>
+				<span class="block truncate">{{ entry.title }}</span>
+			</a>
+			{%- if entry.children.length -%}
+				<ul>
+					{%- for child in entry.children %}{{ nav(child, page) }}
+					{% endfor -%}
+			</ul>
+		{%- endif -%}
+	</li>
+{% endif %}
+{%- endmacro %}

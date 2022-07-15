@@ -22,7 +22,7 @@ An open source project to bring all front end documentation under one repository
 
 **2.**  Clone your forked copy of the project.
 
-```
+```bash
 git clone https://github.com/<your_name>/Frontend-Owls
 ```
 
