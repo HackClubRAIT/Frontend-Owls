@@ -1,5 +1,5 @@
 # JavaScript Operators:
-####JavaScript operators are symbols that are used to perform operations on operands.
+JavaScript operators are symbols that are used to perform operations on operands.
 
 #### There are following types of operators in JavaScript.
 
@@ -81,7 +81,7 @@ The following operators are known as JavaScript special operators.
 
 |Operator|	Description|
 |---|---|
-| \(?:\ ) |	Conditional Operator returns value based on the condition. It is like if-else.|
+| \(?: ) |	Conditional Operator returns value based on the condition. It is like if-else.|
 |,|	Comma Operator allows multiple expressions to be evaluated as single statement.|
 |delete|	Delete Operator deletes a property from the object.|
 |in|	In Operator checks if object has the given property|
