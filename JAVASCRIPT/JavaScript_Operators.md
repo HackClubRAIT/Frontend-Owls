@@ -52,3 +52,13 @@ The bitwise operators perform bitwise operations on operands. The bitwise operat
 |<<|	Bitwise Left Shift|	(10<<2) = 40|
 |>>|	Bitwise Right Shift|	(10>>2) = 2|
 |>>>|	Bitwise Right Shift with Zero|	(10>>>2) = 2|
+
+
+## JavaScript Logical Operators
+The following operators are known as JavaScript logical operators.
+
+|Operator|	Description|	Example|
+|---|---|---|
+|&&|	Logical AND|	(10 == 20 && 20 == 33) = false|
+|\|\| |	Logical OR|	(10 == 20 \|\| 20 == 33) = false|
+|!|	Logical Not	|!(10 == 20) = true|
