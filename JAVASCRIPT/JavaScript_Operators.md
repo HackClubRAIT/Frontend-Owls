@@ -1,5 +1,5 @@
 # JavaScript Operators:
-JavaScript operators are symbols that are used to perform operations on operands.
+####JavaScript operators are symbols that are used to perform operations on operands.
 
 #### There are following types of operators in JavaScript.
 
@@ -40,3 +40,15 @@ The JavaScript comparison operator compares the two operands. The comparison ope
 
 
 
+## JavaScript Bitwise Operators
+The bitwise operators perform bitwise operations on operands. The bitwise operators are as follows:
+
+|Operator|Description|Example|
+|---|---|---|
+|&|	Bitwise AND| (10 == 20 & 20 == 33) = false|
+| \|  |	Bitwise OR|	(10 == 20 \| 20 == 33) = false|
+|^|	Bitwise XOR|	(10 == 20 ^ 20 == 33) = false|
+|~|	Bitwise NOT|	(~10) = -10|
+|<<|	Bitwise Left Shift|	(10<<2) = 40|
+|>>|	Bitwise Right Shift|	(10>>2) = 2|
+|>>>|	Bitwise Right Shift with Zero|	(10>>>2) = 2|
