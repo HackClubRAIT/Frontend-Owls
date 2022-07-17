@@ -40,3 +40,18 @@ Bootstrap’s form controls expand on our Rebooted form styles with classes. Use
   <label class="form-check-label" for="flexCheckChecked">Checked checkbox</label>
 </div>
 ```
+
+#### File
+Bootstrap File upload / file input
+File Input is a field which the user can use to upload one or more files (photos, documents or any other file type) from local storage.
+* <h6> Basic example </h6>
+  <label class="form-label" for="customFile">Default file input example</label>
+  <input type="file" class="form-control" id="customFile" />
+
+```
+<label class="form-label" for="customFile">Default file input example</label>
+<input type="file" class="form-control" id="customFile" />
+```
+
+
+  
