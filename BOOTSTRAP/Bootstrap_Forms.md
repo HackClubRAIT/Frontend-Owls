@@ -1,5 +1,15 @@
+
+
 # Bootstrap Forms:
+
 Bootstrap’s form controls expand on our Rebooted form styles with classes. Use these classes to opt into their customized displays for a more consistent rendering across browsers and devices.
+
+ * <mark>install Bootstap before using these forms</mark>
+```
+npm install bootstrap
+//OR
+npm install bootstrap@latest
+```
 
 * <h5>some of the generally used forms:</h5>
 
@@ -14,7 +24,7 @@ Bootstrap’s form controls expand on our Rebooted form styles with classes. Use
 #### Checkbox
  Browser default checkboxes and radios are replaced with the help of .form-check, a series of classes for both input types that improves the layout and behavior of their HTML elements, that provide greater customization and cross browser consistency. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.
    * <h6> Basic example </h6>
-   <img src = "" />
+   <img src = "https://github.com/vickyrules/userContents/blob/main/check.png" />
 
 ``` 
 <!-- Default checkbox -->
@@ -34,7 +44,7 @@ Bootstrap’s form controls expand on our Rebooted form styles with classes. Use
 Bootstrap File upload / file input
 File Input is a field which the user can use to upload one or more files (photos, documents or any other file type) from local storage.
 * <h6> Basic example </h6>
- <img src = "" />
+ <img src = "https://github.com/vickyrules/userContents/blob/main/file.png" />
 
 ```
 <label class="form-label" for="customFile">Default file input example</label>
@@ -44,16 +54,16 @@ File Input is a field which the user can use to upload one or more files (photos
 #### Input fields 
 Input field refer specifically to the text input fields, which are used to obtain data from the users.
 * <h6> Basic example </h6>
-   <img src = "" />
+   <img src = "https://github.com/vickyrules/userContents/blob/main/inputtext.png" />
 
-```
+```  
 <div class="form-outline">
   <input type="text" id="form12" class="form-control" />
   <label class="form-label" for="form12">Example label</label>
 </div>
 ```
 
-####Toggle Switch
+#### Toggle Switch
 A switch is a simple component used for activating one of two predefined options. Commonly used as an on/off button.
 
 * <h6> Basic example </h6>
@@ -89,7 +99,7 @@ A switch is a simple component used for activating one of two predefined options
 A Radio Button is a component used to allow a user to make a single choice among a number of options (whereas Checkboxes are used for selecting multiple options).
 
 * <h6> Basic example </h6>
-  <img src = "" />
+  <img src = "https://github.com/vickyrules/userContents/blob/main/radio.png" />
 
 
 
@@ -110,7 +120,7 @@ A Radio Button is a component used to allow a user to make a single choice among
 A Range is an interactive component that lets the user swiftly slide through possible values spread over the desired range.
 
 * <h6> Basic example </h6>
- <img src = "" />
+ <img src = "https://github.com/vickyrules/userContents/blob/main/range.png" />
 
 ```
 <label class="form-label" for="customRange1">Example range</label>
@@ -123,9 +133,10 @@ A Range is an interactive component that lets the user swiftly slide through pos
 Provide valuable, actionable feedback to your users with HTML5 form validation, via browser default behaviors or custom styles and JavaScript.
 
 * <h6> Basic example </h6>
-   <img src = "" />
+   <img src = "https://github.com/vickyrules/userContents/blob/main/validation.png" />
+   
  ```
-  <form class="row g-3 needs-validation" novalidate>
+ <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
     <div class="form-outline">
       <input type="text" class="form-control" id="validationCustom01" value="Mark" required />
@@ -177,7 +188,10 @@ Provide valuable, actionable feedback to your users with HTML5 form validation, 
 
 ## Additional Examples:
 * Login Form
-   <img src = "" />
+
+   <img src = "https://github.com/vickyrules/userContents/blob/main/ligin.png" />
+   
+   
   ```
   <form>
   <!-- Email input -->
@@ -232,12 +246,11 @@ Provide valuable, actionable feedback to your users with HTML5 form validation, 
     </button>
   </div>
 </form>
-```
 
 * Checkout form
-  <img src="" >
-  ```
-  <form>
+  <img src="https://github.com/vickyrules/userContents/blob/main/checkout.png" >
+ 
+ ``` <form>
   <!-- 2 column grid layout with text inputs for the first and last names -->
   <div class="row mb-4">
     <div class="col">
