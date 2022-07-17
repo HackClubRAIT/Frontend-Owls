@@ -128,6 +128,25 @@ A Radio Button is a component used to allow a user to make a single choice among
   <label class="form-check-label" for="flexRadioDefault2"> Default checked radio </label>
 </div>
 ```
+#### Range
+A Range is an interactive component that lets the user swiftly slide through possible values spread over the desired range.
+
+* <h6> Basic example </h6>
+<label class="form-label" for="customRange1">Example range</label>
+<div class="range">
+  <input type="range" class="form-range" id="customRange1" />
+</div>
+
+```
+<label class="form-label" for="customRange1">Example range</label>
+<div class="range">
+  <input type="range" class="form-range" id="customRange1" />
+</div>
+```
+
+
+
+* * <h6> Basic example </h6>
 
 
 
