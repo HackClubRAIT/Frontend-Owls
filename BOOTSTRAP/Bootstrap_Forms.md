@@ -99,8 +99,35 @@ A switch is a simple component used for activating one of two predefined options
 </div>
 ```
 
+#### Radio
+A Radio Button is a component used to allow a user to make a single choice among a number of options (whereas Checkboxes are used for selecting multiple options).
 
+* <h6> Basic example </h6>
+  <!-- Default radio -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+  <label class="form-check-label" for="flexRadioDefault1"> Default radio </label>
+</div>
 
+<!-- Default checked radio -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
+  <label class="form-check-label" for="flexRadioDefault2"> Default checked radio </label>
+</div>
+
+```
+<!-- Default radio -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+  <label class="form-check-label" for="flexRadioDefault1"> Default radio </label>
+</div>
+
+<!-- Default checked radio -->
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
+  <label class="form-check-label" for="flexRadioDefault2"> Default checked radio </label>
+</div>
+```
 
 
 
