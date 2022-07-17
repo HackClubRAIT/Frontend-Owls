@@ -10,7 +10,7 @@ The Bootstrap Grid System is used for layout, specifically Responsive Layouts. U
 
 ## Here’s the most basic example of using the Grid:
 
-```
+``` 
 
 <div class="container"> 
    <div class="row"> 
