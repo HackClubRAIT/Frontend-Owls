@@ -6,7 +6,6 @@ Bootstrap’s form controls expand on our Rebooted form styles with classes. Use
     * Checkbox    
     * File
     * Input fields
-    * Select
     * Switch
     * Radio
     * Range
@@ -67,6 +66,39 @@ Input field refer specifically to the text input fields, which are used to obtai
   <label class="form-label" for="form12">Example label</label>
 </div>
 ```
+
+####Toggle Switch
+A switch is a simple component used for activating one of two predefined options. Commonly used as an on/off button.
+
+* <h6> Basic example </h6>
+ <img src = "https://github.com/vickyrules/userContents/blob/main/ss.png" />
+
+```
+<!-- Default switch -->
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+</div>
+
+<!-- Checked switch -->
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+</div>
+
+<!-- Default disabled switch -->
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled />
+  <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+</div>
+
+<!-- Checked disabled switch -->
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled />
+  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+</div>
+```
+
 
 
 
