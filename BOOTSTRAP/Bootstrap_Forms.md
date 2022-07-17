@@ -14,17 +14,7 @@ Bootstrap’s form controls expand on our Rebooted form styles with classes. Use
 #### Checkbox
  Browser default checkboxes and radios are replaced with the help of .form-check, a series of classes for both input types that improves the layout and behavior of their HTML elements, that provide greater customization and cross browser consistency. Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.
    * <h6> Basic example </h6>
-   <!-- Default checkbox -->
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-  <label class="form-check-label" for="flexCheckDefault">Default checkbox</label>
-</div>
-
-<!-- Checked checkbox -->
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
-  <label class="form-check-label" for="flexCheckChecked">Checked checkbox</label>
-</div>
+   <img src = "" />
 
 ``` 
 <!-- Default checkbox -->
@@ -44,8 +34,7 @@ Bootstrap’s form controls expand on our Rebooted form styles with classes. Use
 Bootstrap File upload / file input
 File Input is a field which the user can use to upload one or more files (photos, documents or any other file type) from local storage.
 * <h6> Basic example </h6>
-  <label class="form-label" for="customFile">Default file input example</label>
-  <input type="file" class="form-control" id="customFile" />
+ <img src = "" />
 
 ```
 <label class="form-label" for="customFile">Default file input example</label>
@@ -55,10 +44,7 @@ File Input is a field which the user can use to upload one or more files (photos
 #### Input fields 
 Input field refer specifically to the text input fields, which are used to obtain data from the users.
 * <h6> Basic example </h6>
-  <div class="form-outline">
-  <input type="text" id="form12" class="form-control" />
-  <label class="form-label" for="form12">Example label</label>
-</div>
+   <img src = "" />
 
 ```
 <div class="form-outline">
@@ -103,17 +89,9 @@ A switch is a simple component used for activating one of two predefined options
 A Radio Button is a component used to allow a user to make a single choice among a number of options (whereas Checkboxes are used for selecting multiple options).
 
 * <h6> Basic example </h6>
-  <!-- Default radio -->
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-  <label class="form-check-label" for="flexRadioDefault1"> Default radio </label>
-</div>
+  <img src = "" />
 
-<!-- Default checked radio -->
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
-  <label class="form-check-label" for="flexRadioDefault2"> Default checked radio </label>
-</div>
+
 
 ```
 <!-- Default radio -->
@@ -132,10 +110,7 @@ A Radio Button is a component used to allow a user to make a single choice among
 A Range is an interactive component that lets the user swiftly slide through possible values spread over the desired range.
 
 * <h6> Basic example </h6>
-<label class="form-label" for="customRange1">Example range</label>
-<div class="range">
-  <input type="range" class="form-range" id="customRange1" />
-</div>
+ <img src = "" />
 
 ```
 <label class="form-label" for="customRange1">Example range</label>
@@ -144,10 +119,11 @@ A Range is an interactive component that lets the user swiftly slide through pos
 </div>
 ```
 
-####Validation
+#### Validation
 Provide valuable, actionable feedback to your users with HTML5 form validation, via browser default behaviors or custom styles and JavaScript.
 
 * <h6> Basic example </h6>
+   <img src = "" />
  ```
   <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
@@ -199,8 +175,124 @@ Provide valuable, actionable feedback to your users with HTML5 form validation, 
 </form>
 ```
 
+## Additional Examples:
+* Login Form
+   <img src = "" />
+  ```
+  <form>
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="email" id="form2Example1" class="form-control" />
+    <label class="form-label" for="form2Example1">Email address</label>
+  </div>
 
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <input type="password" id="form2Example2" class="form-control" />
+    <label class="form-label" for="form2Example2">Password</label>
+  </div>
 
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+      <!-- Checkbox -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+        <label class="form-check-label" for="form2Example34"> Remember me </label>
+      </div>
+    </div>
 
+    <div class="col">
+      <!-- Simple link -->
+      <a href="#!">Forgot password?</a>
+    </div>
+  </div>
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+  <!-- Register buttons -->
+  <div class="text-center">
+    <p>Not a member? <a href="#!">Register</a></p>
+    <p>or sign up with:</p>
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-primary btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</form>
+```
+
+* Checkout form
+  <img src="" >
+  ```
+  <form>
+  <!-- 2 column grid layout with text inputs for the first and last names -->
+  <div class="row mb-4">
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example1" class="form-control" />
+        <label class="form-label" for="form6Example1">First name</label>
+      </div>
+    </div>
+    <div class="col">
+      <div class="form-outline">
+        <input type="text" id="form6Example2" class="form-control" />
+        <label class="form-label" for="form6Example2">Last name</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="form6Example3" class="form-control" />
+    <label class="form-label" for="form6Example3">Company name</label>
+  </div>
+
+  <!-- Text input -->
+  <div class="form-outline mb-4">
+    <input type="text" id="form6Example4" class="form-control" />
+    <label class="form-label" for="form6Example4">Address</label>
+  </div>
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <input type="email" id="form6Example5" class="form-control" />
+    <label class="form-label" for="form6Example5">Email</label>
+  </div>
+
+  <!-- Number input -->
+  <div class="form-outline mb-4">
+    <input type="number" id="form6Example6" class="form-control" />
+    <label class="form-label" for="form6Example6">Phone</label>
+  </div>
+
+  <!-- Message input -->
+  <div class="form-outline mb-4">
+    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+    <label class="form-label" for="form6Example7">Additional information</label>
+  </div>
+
+  <!-- Checkbox -->
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
+    <label class="form-check-label" for="form6Example8"> Create an account? </label>
+  </div>
+
+  <!-- Submit button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+</form>
+``` 
 
   
