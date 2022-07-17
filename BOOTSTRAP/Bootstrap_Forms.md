@@ -53,5 +53,24 @@ File Input is a field which the user can use to upload one or more files (photos
 <input type="file" class="form-control" id="customFile" />
 ```
 
+#### Input fields 
+Input field refer specifically to the text input fields, which are used to obtain data from the users.
+* <h6> Basic example </h6>
+  <div class="form-outline">
+  <input type="text" id="form12" class="form-control" />
+  <label class="form-label" for="form12">Example label</label>
+</div>
+
+```
+<div class="form-outline">
+  <input type="text" id="form12" class="form-control" />
+  <label class="form-label" for="form12">Example label</label>
+</div>
+```
+
+
+
+
+
 
   
