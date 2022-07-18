@@ -4,8 +4,8 @@ Dropdown is an integral part in forms, navbar of website, etc. It lets us choose
 
 Tags used in drop down code
 
-- select : to create dropdown list with multiple options
-- option : to display available option values
+- ```<select> ``` : to create dropdown list with multiple options
+- ```<option>``` : to display available option values
 
 Here, I have created a sample dropdown which allows you to select your favourite coding language.
 
@@ -34,5 +34,5 @@ https://user-images.githubusercontent.com/98261167/179349847-9b4d1bd7-aaea-4860-
     <a href="#">Link IV</a>
   </div>
 </div>
-  ````
+  
   
