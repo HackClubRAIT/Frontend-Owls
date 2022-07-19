@@ -8,7 +8,7 @@
 
 <pre> 1. Linear Gradient
 2. Radial Gradient
-3. Conical Gradient </pre>
+3. Conic Gradient </pre>
 
 <br>
 
