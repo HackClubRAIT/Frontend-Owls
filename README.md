@@ -90,6 +90,18 @@ git push -u origin <your_branch_name>
 <p align="center"> <a href="https://github.com/siddhi-244"><img src="https://avatars.githubusercontent.com/u/69195262?s=96&v=4" width=90px height=90px /></a>
 <a href="https://github.com/girija0707"><img src="https://avatars.githubusercontent.com/u/63583646?v=4" width=90px height=90px /></a>--!>
 
+<h1 align="center">
+ <b>Project Contributors
+<h1>
+<a href="https://github.com/HackClubRAIT/Frontend-Owls/graphs/contributors">
+  <img src="https://contrib.rocks/image?HackClubRAIT/Frontend-Owls&&max=917" />
+</a>
+
+<br>
+<br>
+
+## This repository is a part of the following Open Source Program: <br>
+Hack Club RAIT
 
 
-
+![1632670084686](https://user-images.githubusercontent.com/80090908/179052180-5067b5fe-9c98-421e-b818-ae4bd7976ca8.jpg)
