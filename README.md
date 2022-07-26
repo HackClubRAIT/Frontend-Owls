@@ -94,13 +94,13 @@ git push -u origin <your_branch_name>
  <b>Project Contributors
 <h1>
 <a href="https://github.com/HackClubRAIT/Frontend-Owls/graphs/contributors">
-  <img src="https://contrib.rocks/image?HackClubRAIT/Frontend-Owls&&max=917" />
+  <img src="https://contrib.rocks/image?HackClubRAIT/Frontend-Owls" />
 </a>
 
 <br>
 <br>
 
-## This repository is a part of the following Open Source Program: <br>
+This repository is a part of the following Open Source Program: <br>
 Hack Club RAIT
 
 
