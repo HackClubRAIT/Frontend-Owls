@@ -86,10 +86,22 @@ git push -u origin <your_branch_name>
 
 **15** Voila! You have made a PR to the Frontend-Owls . Sit back patiently and relax while your PR is reviewed.
 
+# Project Contributors 
+
+ <a href="https://github.com/HackClubRAIT/Frontend-Owls/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HackClubRAIT/Frontend-Owls" />
+</a>
+  
+<br>
+<br>
+  
+## This repository is a part of the following Open Source Program: <br>
+Hack Club RAIT
+
+
+![1632670084686](https://user-images.githubusercontent.com/80090908/179052180-5067b5fe-9c98-421e-b818-ae4bd7976ca8.jpg)
+
 <!--<h1 align=center> Project Maintainer </h1> 
 <p align="center"> <a href="https://github.com/siddhi-244"><img src="https://avatars.githubusercontent.com/u/69195262?s=96&v=4" width=90px height=90px /></a>
 <a href="https://github.com/girija0707"><img src="https://avatars.githubusercontent.com/u/63583646?v=4" width=90px height=90px /></a>--!>
-
-
-
 
