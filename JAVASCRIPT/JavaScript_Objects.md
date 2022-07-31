@@ -116,10 +116,3 @@ document.getElementById("demo").innerHTML = person;
 
 
 
-
-
-
-
-
- 
- 
