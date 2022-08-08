@@ -1,11 +1,11 @@
 # CSS IMAGE STYLING
 There are many ways to set style in images which are listed below:
 
-● Thumbnail Images
-● Rounded Images
-● Responsive Images
-● Transparent Image
-● Center an Image
+● Thumbnail Images <br>
+● Rounded Images <br>
+● Responsive Images <br>
+● Transparent Image <br>
+● Center an Image <br>
 
 # Thumbnail Images
 The border property is used to create thumbnail images.
