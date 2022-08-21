@@ -1,6 +1,26 @@
-# Frontend-Owls
+# <p align="center">Frontend-Owls</p>
 
-An open source project to bring all front end documentation under one repository.
+<p align="center">An open source project to bring all front end documentation under one repository.</p>
+
+
+  <div align="center">
+ <p>
+
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=Vikash-8090-Yadav%2FWeb3.0-World%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/HackClubRAIT/Frontend-Owls)
+![GitHub Repo stars](https://img.shields.io/github/stars/HackClubRAIT/Frontend-Owls)
+![GitHub contributors](https://img.shields.io/github/contributors/HackClubRAIT/Frontend-Owls)
+![GitHub last commit](https://img.shields.io/github/last-commit/HackClubRAIT/Frontend-Owls)
+
+![Github](https://img.shields.io/github/license/HackClubRAIT/Frontend-Owls)
+![GitHub issues](https://img.shields.io/github/issues/HackClubRAIT/Frontend-Owls)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/HackClubRAIT/Frontend-Owls)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/HackClubRAIT/Frontend-Owls)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/HackClubRAIT/Frontend-Owls)
+ </p>
+ </div>
 
 <hr>
 
