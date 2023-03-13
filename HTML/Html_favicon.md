@@ -32,7 +32,8 @@ The steps for making the favicon are as follows:
 </head>
 <body>
 
-<h1>This is my Heading</h1>
+<h1>This is my Heading1</h1>
+<h2>This is my Heading2</h2>
 <p>This is my paragraph.</p>
 
 </body>
